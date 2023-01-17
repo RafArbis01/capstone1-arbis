@@ -1,0 +1,55 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: 'Kanit', sans-serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+}
+
+#hero-bg {
+	background-image: url(./images/hero-bg.jpg);
+	background-repeat: no-repeat;
+}
+
+#hero-container {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+
+}
+
+/*#hero-container > h2 {
+	display: inline;
+	font-size: 48px;
+	padding-top: 1em;
+	padding-left: 5em;
+}
+
+#me-image {
+	width: 200px;
+	top: 0px;
+	float: right;
+	margin-right: 17em;
+	border-radius: 100px;
+}
+
+#hero-container > p {
+	font-size: 24px;
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 13em;
+}
+
+.skills-card {
+	width: 200px;
+}
