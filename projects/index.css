@@ -1,0 +1,137 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Open Sans;
+}
+
+h1, h2{
+	font-family: Times New Roman;
+}
+
+nav {
+	background-color: white;
+	vertical-align: middle;
+	position: sticky;
+	top: 0px;
+	display: inline-block;
+	width: 100%;
+	z-index: 5;
+}
+
+li {
+	list-style-type: none;
+}
+
+.nav-logo {
+	float: left;
+	padding-left: 3em;
+	margin: 0.8em;
+}
+
+.right-nav {
+	float: right;
+	padding-right: 3em;
+}
+
+.nav {
+	display: inline-block;
+	margin: 0.8em;
+}
+
+#bg-image {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 20rem;
+	background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.front-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: block;
+	height: 100%;
+	text-align: right;
+	padding-left: 55vw;
+	padding-right: 10vw;
+}
+
+.title {
+	margin-bottom: 20px;
+	color: white;
+	font-size: 38px;
+}
+
+.subtitle {
+	font-size: 18px;
+	font-family: Open Sans;
+	font-weight: normal;
+	padding-left: 15em;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.apply-button, .tuitt-button {
+	background-color: #c2195b;
+	color: white;
+	font-weight: bold;
+	width: 8rem;
+	height: 2rem;
+	border-radius: 15px;
+	border: none;
+}
+
+.intro {
+	height: 50vh;
+	width: 100%;
+}
+
+.title-2 {
+	padding-top: 125px;
+	padding-bottom: 105px;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.intro-description {
+	margin-top: 50px;
+	font-size: 20px;
+	padding-left: 15em;
+	padding-right: 15em;
+}
+
+.pre-footer {
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+}
+
+.title-2 {
+	padding-top: 125px;
+	padding-bottom: 50px;
+	font-size: 2.5rem;
+}
+
+.prefooter-description {
+	font-size: 20px;
+	padding-left: 15em;
+	padding-right: 15em;
+	margin-top: 10px;
+	margin-bottom: 1em;
+}
+
+.book-button {
+	background-color: #336589;
+	font-weight: bold;
+	color: white;
+	width: 9rem;
+	height: 2rem;
+	border-radius: 15px;
+	border: none;
+}
+
+footer {
+	margin-top: 5em;
+	text-align: center;
+}
