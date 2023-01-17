@@ -18,8 +18,8 @@
 <body>
 
 	<!-- Navbar Start -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<a class="navbar-brand" href="#">Navbar</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<a class="navbar-brand" href="#">My Portfolio</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -46,40 +46,42 @@
 	<div>
 		<!-- Hero Section Start -->
 		<div class="img-fluid pl-md-5 pr-md-5" id="hero-bg">
-			<div class="w-100 d-block text-white text-center text-md-left p-5" id="hero-container">
-				<h2 class="pt-5">
+			<div class="mh-100 container-fluid w-100 w-sm-75 d-block text-white text-center text-md-left ml-auto mr-auto p-5" id="hero-container">
+				<h2 class="pb-3">
 					About Me
 				</h2>
-				<img src="./images/me-placeholder-image.jpeg" width="250px" id="me-image" class="">
-				<p class="mt-5 pb-5">
-					Testing testing. My name is Rafhael and I am a striving Web Developer, looking to be a Fullstack Developer. I used to handle software and hardware troubleshooting inquiries, but not is trying to learn to develop my own system thanks to Zuitt.
+				<img src="./images/me-placeholder-image.jpeg" width="250px" id="me-image" class="rounded-circle">
+				<p class="mt-5 pb-3">
+					My name is Rafhael and I am a striving Web Developer, looking to be a Fullstack Developer. I used to handle software and hardware troubleshooting inquiries, but not is trying to learn to develop my own system thanks to Zuitt.
 				</p>
 			</div>
 		</div>
 		<!-- Hero Section End -->
 
 		<!-- My Skills Section Start -->
-		<div class="container-fluid p-auto d-block" id="my-skills">
-			<h2 class="">My Current Skills</h2>
-			<div class="d-flex flex-column flex-md-row justify-content-between">
-				<div class="card col-lg-4 skills-card" style="width: 18rem;">
+		<div class="container-fluid mt-3 mb-3 p-auto d-block" id="my-skills">
+			<h2 class="text-center text-md-left mb-5">
+				My Current Skills
+			</h2>
+			<div class="w-100 m-auto d-md-flex row justify-content-center">
+				<div class="card col-8 col-md-3 m-1 skills-card" style="width: 18rem;">
 					<img class="card-img-top" src="./images/html.jpg" alt="Card image cap">
 					<div class="card-body">
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">HTML - Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
 					</div>
 				</div>
 
-				<div class="card col-lg-4 skills-card" style="width: 18rem;">
+				<div class="card col-8 col-md-3 m-1 skills-card" style="width: 18rem;">
 					<img class="card-img-top" src="./images/css.png" alt="Card image cap">
 					<div class="card-body">
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">CSS - CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML).</p>
 					</div>
 				</div>
 
-				<div class="card col-lg-4 skills-card" style="width: 18rem;">
+				<div class="card col-8 col-md-3 m-1 skills-card" style="width: 18rem;">
 					<img class="card-img-top" src="./images/bootstrap.png" alt="Card image cap">
 					<div class="card-body">
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Bootstrap - Bootstrap is a free, open source front-end development framework for the creation of websites and web apps.</p>
 					</div>
 				</div>
 			</div>
@@ -87,11 +89,11 @@
 		<!-- My Skills Section End -->
 
 		<!-- Skills to Learn Start -->
-		<div class="container-fluid bg-secondary text-white mt-5 mb-5 p-5 mx-auto" id="to-learn">
-			<h2>
+		<div class="container-fluid bg-secondary text-white mt-5 mb-5 p-5 d-block" id="to-learn">
+			<h2 class="text-center mb-5">
 				Skills that I'm Learning
 			</h2>
-			<div id="carouselExampleIndicators" class="carousel slide w-50 text-center" data-ride="carousel">
+			<div id="carouselExampleIndicators" class="carousel slide w-75 m-auto" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -99,13 +101,13 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100 img-fluid" src="./images/node.png" alt="First slide">
+						<img class="w-100" src="./images/node.png" alt="First slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100 img-fluid" src="./images/react.png" alt="Second slide">
+						<img class="w-100" src="./images/react.png" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100 img-fluid" src="./images/jquery.png" alt="Third slide">
+						<img class="w-100" src="./images/jquery.png" alt="Third slide">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -123,31 +125,23 @@
 	<!-- Main Sections End -->
 
 	<!-- Footer Start -->
-	<div class="container-fluid bg-dark text-light text-center pt-5 pb-5" id="contact-me">
+	<div class="container-fluid bg-primary text-light text-center pt-3 pb-1" id="contact-me">
 		<h2>
 			Contact Me
 		</h2>
-		<div class="container-fluid row bg-primary text-light d-block col-12 col-md-8 col-xl-4 text-center m-auto p-1">
 			<form class="container-fluid">
 				<label class="container-fluid" for="name-input">Name</label>
 				<input placeholder="Your Name" type="text" id="name-input" class="container-fluid">
 				<label class="container-fluid" for="email-input">Email Address</label>
 				<input placeholder="name@example.com" type="email" id="email-input" class="container-fluid">
-				<label class="container-fluid" for="tel-input">Contact Number</label>
-				<input placeholder="+63 900 000 0000" type="tel" id="tel-input" class="container-fluid">
-				<label class="container-fluid" for="concern-input">Concern</label>
-				<select id="concern-input" class="container-fluid">
-					<option value="quotation">Quotation</option>
-					<option value="others">Others</option>
-				</select>
 				<label class="container-fluid" for="message-input">Message</label>
 				<textarea rows="5" class="container-fluid" id="message-input"></textarea>
 				<!-- Modal Start -->
-				<button type="button" class="bg-dark text-white btn-outline-dark m-3" data-toggle="modal" data-target="#exampleModal">
+				<button type="button" class="bg-primary border border-dark p-2 text-white btn-outline-dark m-3" data-toggle="modal" data-target="#exampleModal">
 					Send Email
 				</button>
 			</form>
-
+			<!-- Modal Start -->
 			<div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
@@ -165,7 +159,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
 			<!-- Modal End -->
 			<!-- <button type="button" class="bg-dark text-white btn-outline-dark m-3">Send Email</button>  -->
 		</div>
